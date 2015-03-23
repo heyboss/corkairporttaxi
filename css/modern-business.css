@@ -41,7 +41,12 @@ header.carousel .fill {
     background-position: center;
     background-size: cover;
 }
-
+.btn-block{
+    margin: 100;
+    text-align: center;
+    width: 100%;
+	
+}
 /* 404 Page Styles */
 
 .error-404 {
