@@ -42,7 +42,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Homeage</a>
+                <a class="navbar-brand" href="index.html">Homepage</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -168,13 +168,13 @@
                     <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
-                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                        <a href="https://www.facebook.com/CorkAirportTaxisAndTours"><i class="fa fa-facebook-square fa-2x"></i></a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-twitter-square fa-2x"></i></a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
@@ -209,12 +209,38 @@
                             <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
                         </div>
                     </div>
+					<div class="control-group form-group">
+                        <div class="controls">
+                            <label>Pickup Time:</label>
+                            <input type="required" class="form-control" id="pickuptime" required data-validation-required-message="Please enter your pickup time.">
+                        </div>
+                    </div>
+					<div class="control-group form-group">
+                        <div class="controls">
+                            <label>Pickup Date:</label>
+                            <input type="required" class="form-control" id="pickupdate" required data-validation-required-message="Please enter your pickup date.">
+                        </div>
+                    </div>
+					<div class="control-group form-group">
+                        <div class="controls">
+                            <label>Pickup Location:</label>
+                            <input type="required" class="form-control" id="pickuplocation" required data-validation-required-message="Please enter your pickup location.">
+                        </div>
+                    </div>
+					<div class="control-group form-group">
+                        <div class="controls">
+                            <label>Number of Passengers:</label>
+                            <input type="required" class="form-control" id="passengers" required data-validation-required-message="Please enter your number of passengers.">
+                        </div>
+                    </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Message:</label>
                             <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
                         </div>
-                    </div>
+                    </div> 
+					
+					
                     <div id="success"></div>
                     <!-- For success/fail messages -->
                     <button type="submit" class="btn btn-primary">Send Message</button>
