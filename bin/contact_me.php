@@ -27,7 +27,7 @@ $message = $_POST['message'];
 $to = 'taxibase@corkairporttaxi.ie'; // PUT YOUR EMAIL ADDRESS HERE
 $email_subject = "Cork Airport Taxi:  $name"; // EDIT THE EMAIL SUBJECT LINE HERE
 $email_body = "You have received a new message from your website's contact form.\n\n"."Here are the details:\n\nName: $name\n\nPhone: $phone\n\nEmail: $email_address 
-               \n\nPickupTime: $pickuptime \n\nPickupDate: $pickupdate \n\nPickupLocation: $pickuplocation \n\Passengers: $passengers \n\nMessage:\n$message";
+                \n\nPickupTime: $pickuptime \n\nPickupDate: $pickupdate \n\nPickupLocation: $pickuplocation \n\Passengers: $passengers \n\nMessage:\n$message";
 $headers = "From: noreply@your-domain.com\n";
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
