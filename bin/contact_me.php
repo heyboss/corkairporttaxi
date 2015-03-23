@@ -1,8 +1,8 @@
 <?php
 // check if fields passed are empty
-if(empty($_POST['name'])  		||
-   empty($_POST['phone']) 		||
-   empty($_POST['email']) 		||
+if(empty($_POST['name']) ||
+   empty($_POST['phone']) ||
+   empty($_POST['email']) ||
    empty($_POST['pickuptime']) ||
    empty($_POST['pickupdate']) ||
    empty($_POST['pickuplocation']) ||
