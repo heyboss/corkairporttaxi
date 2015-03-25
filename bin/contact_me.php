@@ -31,5 +31,6 @@ $email_body = "You have received a new message from your website's contact form.
 $headers = "From: noreply@your-domain.com\n";
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
+echo "Thank you for your enquiry!";
 return true;			
 ?>
