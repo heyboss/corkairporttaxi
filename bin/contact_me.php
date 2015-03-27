@@ -24,7 +24,7 @@ $passengers = $_POST['passengers'];
 $message = $_POST['message'];
 	
 // create email body and send it	
-$to = 'taxibase@corkairporttaxi.ie'; // PUT YOUR EMAIL ADDRESS HERE
+$to = 'michelletmccarthy1@gmail.com'; // PUT YOUR EMAIL ADDRESS HERE
 $email_subject = "Cork Airport Taxi:  $name"; // EDIT THE EMAIL SUBJECT LINE HERE
 $email_body = "You have received a new message from your website's contact form.\n\n"."Here are the details:\n\nName: $name\n\nPhone: $phone\n\nEmail: $email_address 
                 \n\nPickupTime: $pickuptime \n\nPickupDate: $pickupdate \n\nPickupLocation: $pickuplocation \n\Passengers: $passengers \n\nMessage:\n$message";
